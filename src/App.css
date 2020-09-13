@@ -10,7 +10,8 @@ body {
     padding : 0;
     font-family : RIDIBatang;
     height:100%;     
-    background-color: #D8E6E7;          
+    background-color: #D8E6E7;
+    justify-items: center;
 }
 
 html, 
@@ -33,4 +34,9 @@ body,
     font-size: 40px;
     text-shadow: 2px 2px 4px gray;
 
-}   
+}  
+
+.about_me{
+    padding-top : 100px;
+    font-size: 30px;
+}
