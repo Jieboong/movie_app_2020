@@ -9,8 +9,10 @@ function Movie({id,year, title, summary, poster,genres}) {
         <img src={poster} alt={title} title={title} />
         <div className="movie__data">
             <Link to = {{
-                 pathname :'/movie/${id}',
+                 // eslint-disable-next-line no-template-curly-in-string
+                 pathname :`/movie/${id}`,
                  state :{ 
+                     id,
                      year,
                      title,
                      poster,

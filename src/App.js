@@ -1,7 +1,7 @@
 
 import React from "react";
 import {HashRouter, Route} from "react-router-dom";
-import About from "./routes/About"
+import MyPage from "./routes/MyPage"
 import Home from "./routes/Home"
 import Detail from "./routes/Detail"
 import Navigation from "./components/Navigation"
@@ -12,7 +12,7 @@ function App() {
   <HashRouter>
     <Navigation />
     <Route path="/" exact={true} component={Home} />
-    <Route path="/about" component={About} />
+    <Route path="/myPage" component={MyPage} />
     <Route path="/movie/:id" component={Detail}/>
   </HashRouter>
   )
